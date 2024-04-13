@@ -21,7 +21,7 @@ const SkillText = () => {
         variants={slideInFromLeft(0.5)}
         className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
         >
-            Let's be good friends, Mr. AI
+            Let&apos; be good friends, Mr. AI
         </motion.div>
         <motion.div
         variants={slideInFromRight(0.5)}

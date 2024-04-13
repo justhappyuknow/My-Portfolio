@@ -4,7 +4,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/16/solid'
-
+import Image from 'next/image'
 const HeroContent = () => {
     return (
         <motion.div
@@ -18,7 +18,7 @@ const HeroContent = () => {
                     variants={slideInFromTop}
                     className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'>
                     <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                    <h1 className='Welcome-text text-[13px]'>Pariyashi's Portfolio</h1>
+                    <h1 className='Welcome-text text-[13px]'>Pariyashi&apos; Portfolio</h1>
                 </motion.div>
                 <motion.div
                     variants={slideInFromLeft(0.5)}
@@ -33,7 +33,7 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'
                 >
-                    I am a Frontend Developer and a growing Data Analyst, checkout my projects and skills!
+                    I am a Frontend Developer and a growing Data Analyst checkout my projects and skills!
 
                 </motion.p>
                 <motion.a variants={slideInFromLeft(1)}
@@ -43,7 +43,7 @@ const HeroContent = () => {
             <motion.div
                 variants={slideInFromRight(0.8)}
                 className='w-full h-full flex justify-center items-center'>
-               <img src="/mainIconsdark.svg"
+               <Image src="/mainIconsdark.svg"
                alt="work icons " height={650} width ={650}
                />
                 
