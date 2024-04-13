@@ -38,7 +38,10 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
+           <a href="https://www.instagram.com/_justhappy.uknow/"> <img src="./instagram.svg" height="24" width="24"/></a>
+           <a href="https://github.com/justhappyuknow?tab=repositories"> <img src="./github-mark-white.svg" height="24" width="24"/></a>
+           <a href="https://www.linkedin.com/in/pariyashi-sahu-b91614243/"> <img src="./linkedin.svg" height="24" width="24"/></a>
+          {/* {Socials.map((social) => (
             <Image
               src={social.src}
               alt={social.name}
@@ -46,7 +49,7 @@ const Navbar = () => {
               width={24}
               height={24}
             />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

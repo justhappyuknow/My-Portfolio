@@ -21,9 +21,11 @@ const Footer = () => {
                     <div className="font-bold text-[16px]">Community</div>
                     
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>
+    <RxGithubLogo />
+    <a href="https://github.com/justhappyuknow/My-Portfolio" className="text-[15px] ml-[6px]">
+        Github
+    </a>
+</p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Discord</span>    
