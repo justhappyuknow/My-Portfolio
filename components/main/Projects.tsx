@@ -11,7 +11,7 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard
+        <ProjectCard 
           src="/labourlink.jpeg"
           title="LabourLink- A portal for labourers"
           description="A website built using Reactjs for labourers to get work by simply registring themselves on the portal, it uses APIs of Razorpay, Firebase and EmailJS. "

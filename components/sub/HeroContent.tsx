@@ -36,9 +36,9 @@ const HeroContent = () => {
                     I am a Frontend Developer and a growing Data Analyst checkout my projects and skills!
 
                 </motion.p>
-                <motion.a variants={slideInFromLeft(1)}
+                <motion.a href='https://drive.google.com/file/d/1gXB9FR8K5jekXZedwrntBfJwD2wNN-Ne/view?usp=drive_link' target='blank' variants={slideInFromLeft(1)}
                     className='oy-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
-                    Learn more
+                    My Resume here!
                 </motion.a> </div>
             <motion.div
                 variants={slideInFromRight(0.8)}
