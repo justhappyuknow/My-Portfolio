@@ -15,16 +15,21 @@ const Projects = () => {
           src="/labourlink.jpeg"
           title="LabourLink- A portal for labourers"
           description="A website built using Reactjs for labourers to get work by simply registring themselves on the portal, it uses APIs of Razorpay, Firebase and EmailJS. "
-          
+
         />
         <ProjectCard
-    
+
           src="/insightify.jpeg"
           title="PDF summariser and Comprehension solver"
           description="It is built using the Natural Language Processing model based on Chatgpt for summarizing and chatting with multiple PDFs at a time."
-          
+
         />
-        
+
+        <ProjectCard
+           src="/weather.png" 
+          title="Weather forecast- API"
+          description="It is a weather forecasting website which includes Cities from around the world."
+        />
         <ProjectCard
            src="/weather.png" 
           title="Weather forecast- API"

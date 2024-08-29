@@ -14,40 +14,35 @@ const Encryption = () => {
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
         >
-          Performance
+          About Me
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             {" "}
-            &{" "}
+            👋{" "}
           </span>
-          Security
+          
         </motion.div>
       </div>
 
       <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
-        <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
+        <div className="flex flex-col items-right group cursor-pointer w-auto h-auto">
           <Image
-            src="/LockTop.png"
+            src="/Photo.jpeg"
             alt="Lock top"
-            width={50}
-            height={50}
-            className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
+            width={300}
+            height={300}
+            className="w-[300px] translate-y-5 transition-all duration-200 group-hover:translate-y-15 items-center"
           />
-          <Image
-            src="/LockMain.png"
-            alt="Lock Main"
-            width={70}
-            height={70}
-            className=" z-10"
-          />
+          
         </div>
 
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
-          <h1 className="Welcome-text text-[12px]">Encryption</h1>
+        <div className="Welcome-box px-[15px] py-[2px] z-[10] border my-[20px] border-[#7042f88b] opacity-[0.9] break-words">
+          <h1 className="Welcome-text text-[20px] justify-center break-words">My Name is Pariyashi Sahu, I am a final year student at Jaypee Institute of Information Technology, Noida, majoring in Computer Science And Engineering.  <br/>
+          I am looking forward to opportunities in the field of Data Analytics and Web development, I look forward to work in various projects that involves sustainability and innovation. </h1>
         </div>
       </div>
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption
+          Looking forward to work with you!
         </div>
       </div>
 

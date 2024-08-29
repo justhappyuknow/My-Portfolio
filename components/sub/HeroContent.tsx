@@ -36,7 +36,7 @@ const HeroContent = () => {
                     I am a Frontend Developer and a growing Data Analyst checkout my projects and skills!
 
                 </motion.p>
-                <motion.a href='https://drive.google.com/file/d/1gXB9FR8K5jekXZedwrntBfJwD2wNN-Ne/view?usp=drive_link' target='blank' variants={slideInFromLeft(1)}
+                <motion.a href='https://drive.google.com/file/d/1pFAfmO1wt-UA1u402nVmu-zOGcoGE4iW/view?usp=drive_link' target='blank' variants={slideInFromLeft(1)}
                     className='oy-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
                     My Resume here!
                 </motion.a> </div>
@@ -54,4 +54,4 @@ const HeroContent = () => {
     )
 }
 
-export default HeroContent
+export default HeroContent;

@@ -18,6 +18,8 @@
     "react-dom": "^18",
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.8.2",
+    "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.33.4",
     "three": "^0.163.0"
   },
   "devDependencies": {
