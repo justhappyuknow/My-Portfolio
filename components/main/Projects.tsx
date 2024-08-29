@@ -30,11 +30,11 @@ const Projects = () => {
           title="Weather forecast- API"
           description="It is a weather forecasting website which includes Cities from around the world."
         />
-        <ProjectCard
+        { <ProjectCard
            src="/weather.png" 
-          title="Weather forecast- API"
-          description="It is a weather forecasting website which includes Cities from around the world."
-        />
+          title="Yoga-Wings"
+          description="Website for yoga practitioners to book classes and get to know about yoga."
+        /> }
       </div>
     </div>
   );
