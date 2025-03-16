@@ -33,7 +33,7 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'
                 >
-                    I am a Frontend Developer and a growing Data Analyst checkout my projects and skills!
+                    Software Developer Intern at Cognida.ai and a growing Data Analyst!
 
                 </motion.p>
                 <motion.a href='https://drive.google.com/file/d/1pFAfmO1wt-UA1u402nVmu-zOGcoGE4iW/view?usp=drive_link' target='blank' variants={slideInFromLeft(1)}

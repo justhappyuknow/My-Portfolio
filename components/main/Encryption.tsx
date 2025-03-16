@@ -1,61 +1,88 @@
-
 "use client";
 import React from "react";
-
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 
 const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
-        >
-          About Me
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            {" "}
-            👋{" "}
-          </span>
-          
-        </motion.div>
-      </div>
-
-      <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
-        <div className="flex flex-col items-right group cursor-pointer w-auto h-auto">
-          <Image
-            src="/Photo.jpeg"
-            alt="Lock top"
-            width={300}
-            height={300}
-            className="w-[300px] translate-y-5 transition-all duration-200 group-hover:translate-y-15 items-center"
-          />
-          
-        </div>
-
-        <div className="Welcome-box px-[15px] py-[2px] z-[10] border my-[20px] border-[#7042f88b] opacity-[0.9] break-words">
-          <h1 className="Welcome-text text-[20px] justify-center break-words">My Name is Pariyashi Sahu, I am a final year student at Jaypee Institute of Information Technology, Noida, majoring in Computer Science And Engineering.  <br/>
-          I am looking forward to opportunities in the field of Data Analytics and Web development, I look forward to work in various projects that involves sustainability and innovation. </h1>
-        </div>
-      </div>
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Looking forward to work with you!
-        </div>
-      </div>
-
-      <div className="w-full flex items-start justify-center absolute">
+    <div className="flex flex-col relative items-center justify-center min-h-screen w-full h-full">
+      {/* Background Video */}
+      <div className="w-full h-full absolute top-0 left-0 z-[1]">
         <video
           loop
           muted
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className="w-full h-full object-cover"
           src="/encryption.webm/"
         />
+      </div>
+
+      {/* Content Container */}
+      <div className="relative z-[20] flex flex-col items-center max-w-4xl w-full px-4">
+        {/* Title */}
+        <motion.div
+          variants={slideInFromTop}
+          className="text-[40px] font-bold text-center text-gray-200 mb-8"
+        >
+          About Me
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            {" "}
+            👋{" "}
+          </span>
+        </motion.div>
+
+        {/* Profile Section */}
+        <div className="flex flex-col md:flex-row items-center gap-8 bg-[#0300145e] backdrop-blur-sm p-8 rounded-xl border border-[#7042f88b]">
+          {/* Image */}
+          <div className="flex-shrink-0">
+            <Image
+              src="/Photo.jpeg"
+              alt="Profile Picture"
+              width={300}
+              height={300}
+              className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+
+          {/* Text Content */}
+          <div className="flex flex-col space-y-4">
+            <h2 className="text-2xl font-semibold text-gray-200">
+              Hi, I'm Pariyashi Sahu
+            </h2>
+            <p className="text-gray-300 leading-relaxed">
+            Hey there! I am evolving into a data-driven professional, passionate about analytics and uncovering insights from vast amounts of data. My expertise lies in big data technologies, data analytics, and applying machine learning algorithms to transform raw data into meaningful solutions.
+With hands-on experience in tools like the ELK stack, Tableau, and Power BI, I specialize in converting complex datasets into actionable intelligence. I am deeply intrigued by the strategies and innovations behind every technology, constantly brainstorming to explore new possibilities.
+
+
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+          
+I am currently interning at Cognida.ai, gaining invaluable exposure to AI-driven solutions. Previously, I interned at DRDO, where I explored data analytics and cybersecurity, enhancing my knowledge in these critical domains.
+Let’s talk data and innovation! 🚀
+
+            </p>
+            
+            {/* Skills or Interests Tags */}
+            <div className="flex flex-wrap gap-2 mt-4">
+              {["Data Analytics", "Web Development", "Sustainability", "Innovation"].map((tag, index) => (
+                <span 
+                  key={index}
+                  className="px-3 py-1 bg-[#7042f81c] rounded-full text-sm text-purple-400 border border-[#7042f88b]"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Footer Text */}
+        <div className="mt-8 text-xl font-medium text-gray-300 italic">
+          "Looking forward to creating amazing things together!"
+        </div>
       </div>
     </div>
   );
