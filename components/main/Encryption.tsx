@@ -50,7 +50,7 @@ const Encryption = () => {
           {/* Text Content */}
           <div className="flex flex-col space-y-4">
             <h2 className="text-2xl font-semibold text-gray-200">
-              Hi, I'm Pariyashi Sahu
+              Hi, I&apos;m Pariyashi Sahu
             </h2>
             <p className="text-gray-300 leading-relaxed">
             Hey there! I am evolving into a data-driven professional, passionate about analytics and uncovering insights from vast amounts of data. My expertise lies in big data technologies, data analytics, and applying machine learning algorithms to transform raw data into meaningful solutions.
@@ -61,7 +61,7 @@ With hands-on experience in tools like the ELK stack, Tableau, and Power BI, I s
             <p className="text-gray-300 leading-relaxed">
           
 I am currently interning at Cognida.ai, gaining invaluable exposure to AI-driven solutions. Previously, I interned at DRDO, where I explored data analytics and cybersecurity, enhancing my knowledge in these critical domains.
-Let’s talk data and innovation! 🚀
+Let&apos;s talk data and innovation! 🚀
 
             </p>
             
